@@ -14,6 +14,13 @@ This is a MVC Project that uses the following technologies:
 
 ## Usage
 
+First a mongo database needs to be setup locally or on Atlas. 
+Then one must create a .env file with the key
+ MONGO_URL = "..." // enter your connection string. 
+
+ Full instructions at: 
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
+
 ```
 1. npm install
 2. npm run devstart
