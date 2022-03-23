@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var Genre = new Schema({
-  name: { type: String, required: true },
+  name: { type: String, required: true , maxLength: 100},
 });
 
 // Virtual for bookinstance's URL
