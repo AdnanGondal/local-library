@@ -59,7 +59,7 @@ exports.book_detail = function (req, res) {
     book_instance: function(callback){
 
       BookInstance.find({'book': req.params.id})
-      .exec(callback)
+      .exe(ccallback)
 
     }
 
