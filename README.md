@@ -14,6 +14,8 @@ This is a MVC Project that uses the following technologies:
 
 ## Usage
 
+The app is deployed [here](https://local-library-ag.herokuapp.com/catalog)
+
 First a mongo database needs to be setup locally or on Atlas. 
 Then one must create a .env file with the key
  MONGO_URL = "..." // enter your connection string. 
@@ -28,8 +30,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoo
 
 ## Project Status
 
-Work on this project is in progress.
-This is mainly for my learning and curiosity.
+Work on this project has been put to a stop. 
 
 ## License
 
